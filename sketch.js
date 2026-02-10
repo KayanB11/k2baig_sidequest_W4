@@ -51,6 +51,15 @@ function draw() {
   fill(0);
   text(world.name, 10, 18);
   text("Move: A/D or ←/→ • Jump: Space/W/↑ • Next: N", 10, 36);
+
+  // Defining the word and colour
+  fill(255, 0, 0);
+  let word = "Level 1 -";
+
+  // Loop to generate 'word' across the canvas
+  for (let i = 40; i < width; i += 100) {
+    text(word, i, 75);
+  }
 }
 
 function keyPressed() {
