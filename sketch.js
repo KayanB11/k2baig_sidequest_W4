@@ -52,13 +52,13 @@ function draw() {
   text(world.name, 10, 18);
   text("Move: A/D or ←/→ • Jump: Space/W/↑ • Next: N", 10, 36);
 
-  // Defining the word and colour
+  // Defining the words as an array and colour
   fill(255, 0, 0);
-  let word = "Level 1 -";
+  let words = ["Level 1 -", "Level 2 -", "Level 3 -", "Level 4 -", "Level 5 -"];
 
   // Loop to generate 'word' across the canvas
   for (let i = 40; i < width; i += 100) {
-    text(word, i, 75);
+    text(words[1], i, 75);
   }
 }
 
