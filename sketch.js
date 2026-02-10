@@ -58,7 +58,7 @@ function draw() {
 
   // Loop to generate 'word' across the canvas
   for (let i = 40; i < width; i += 100) {
-    text(words[1], i, 75);
+    text(words[0], i, 75);
   }
 }
 
